@@ -999,5 +999,5 @@ def _pick_port(start: int = 8090) -> int:
 
 
 def main() -> None:
-    ui.run(title="Kalshi 交易工作台", host="127.0.0.1", port=_pick_port(), dark=True,
+    ui.run(title="Kalshi 交易工作台", host="0.0.0.0", port=_pick_port(), dark=True,
            reload=False, show=True)
